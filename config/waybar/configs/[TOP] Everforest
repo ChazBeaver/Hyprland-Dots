@@ -27,10 +27,11 @@
 //	"mpris",
 	"custom/swaync",
 	"tray",
+ 	"custom/separator#blank_6", 
 	"custom/separator#blank_6", 
 	"custom/separator#blank_6", 
-	"custom/separator#blank_6", 
-	"custom/separator#blank_6", 
+	"custom/separator#blank_2", 
+	"custom/separator#blank_2", 
   "custom/weather",
 	],
 "modules-center": [
