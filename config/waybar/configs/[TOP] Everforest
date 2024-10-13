@@ -27,6 +27,11 @@
 //	"mpris",
 	"custom/swaync",
 	"tray",
+	"custom/separator#blank_6", 
+	"custom/separator#blank_6", 
+	"custom/separator#blank_6", 
+	"custom/separator#blank_6", 
+  "custom/weather",
 	],
 "modules-center": [
 	"clock#forest",
@@ -46,12 +51,12 @@
 
 // Additional / Edited Waybar Modules //
 "custom/arch": {
-      "format":" ",
+      "format":" ",
       "tooltip": false,
       "on-click": "rofi -show drun"
 },
 "clock#forest": {
-      "format": "{:%A %d.%m.%Y - %H:%M}",
+      "format": "{:%A %m.%d.%Y - %H:%M}",
       "tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
       "calendar-weeks-pos": "right",
       "today-format": "<span color='#E67E80' weight='ultrabold'>{}</span>",
@@ -132,12 +137,11 @@
 	],
 	//"thermal-zone": 0,
 	"critical-threshold": 82,
-	"format-critical": "Temp {icon}  {temperatureC}°C",
-	"format": "Temp {icon}  {temperatureC}°C",
+	"format-critical": "Temp {icon}  {temperatureF}°F",
+	"format": "Temp {icon}  {temperatureF}°F",
 	"format-icons": [
 		" 󰈸"
 	],
 	"on-click-right": "kitty --title nvtop sh -c 'nvtop'"
 },
 }
-

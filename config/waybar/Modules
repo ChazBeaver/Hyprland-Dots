@@ -599,6 +599,11 @@
 	"interval": "once",
 	"tooltip": false
 },
+"custom/separator#blank_6": {
+	"format": "      ",
+	"interval": "once",
+	"tooltip": false
+},
 // Modules below are for vertical layout
 "backlight#vertical": {
 	"interval": 2,
