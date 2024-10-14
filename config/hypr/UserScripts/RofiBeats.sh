@@ -27,9 +27,11 @@ declare -A online_music=(
   ["YT - Relaxing Spooky Halloween Music 2024 🎃🎶"]="https://www.youtube.com/watch?v=zbmiarkSY3I"
   ["YT - Blade Runner Radio 🎶"]="https://www.youtube.com/watch?v=RrkrdYm3HPQ"
   ["YT - Chillwave FM: Retro Synth 🎶"]="https://www.youtube.com/watch?v=qnStVGoIgBA"
-  ["YT - Tokyo Night Drive - lofi hiphop beats 🎶"]="https://www.youtube.com/watch?v=Lcdi9O2XB4E"
+  ["YT - Tokyo Night Drive - lofi hiphop beats 🌃🎶"]="https://www.youtube.com/watch?v=Lcdi9O2XB4E"
   ["YT - Lofi Girl 🎧🎶"]="https://www.youtube.com/watch?v=jfKfPfyJRdk"
   ["YT - Peaceful Piano Radio 🎹🎶"]="https://www.youtube.com/watch?v=TtkFsfOP9QI"
+  ["YT - Tavern Music: DnD, Fantasy, Inn 🔮🎶"]="https://www.youtube.com/watch?v=vK5VwVyxkbI"
+  ["YT - Fiesta Latina Mix 2024 💃🎶"]="https://www.youtube.com/watch?v=dE4xDQbS-9c"
 )
 
 # Populate local_music array with files from music directory and subdirectories
