@@ -25,7 +25,7 @@ declare -A online_music=(
   ["YT - AfroBeatz 2024 📹🎶"]="https://www.youtube.com/watch?v=7uB-Eh9XVZQ"
   ["YT - Relaxing Piano Jazz Music 🎹🎶"]="https://youtu.be/85UEqRat6E4?si=jXQL1Yp2VP_G6NSn"
   ["YT - Relaxing Spooky Halloween Music 2024 🎃🎶"]="https://www.youtube.com/watch?v=zbmiarkSY3I"
-  ["YT - Blade Runner Radio - Ambient Retro Wave Cyber 🎶"]="https://www.youtube.com/watch?v=RrkrdYm3HPQ"
+  ["YT - Blade Runner Radio - Ambient Chill Retrowave 🎶"]="https://www.youtube.com/watch?v=RrkrdYm3HPQ"
   ["YT - Chillwave FM: Retro Synth 🎶"]="https://www.youtube.com/watch?v=qnStVGoIgBA"
   ["YT - Tokyo Night Drive - lofi hiphop beats 🌃🎶"]="https://www.youtube.com/watch?v=Lcdi9O2XB4E"
   ["YT - Lofi Girl 🎧🎶"]="https://www.youtube.com/watch?v=jfKfPfyJRdk"
