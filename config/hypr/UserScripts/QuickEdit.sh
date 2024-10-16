@@ -2,11 +2,12 @@
 # Rofi menu for Quick Edit / View of Settings (SUPER E)
 
 # define your preferred text editor and terminal to use
-editor=${EDITOR:-nano}
+editor=${EDITOR:-nvim}
 tty=kitty
 
 configs="$HOME/.config/hypr/configs"
 UserConfigs="$HOME/.config/hypr/UserConfigs"
+UserScripts="$HOME/.config/hypr/UserScripts"
 
 menu(){
   printf "1. edit Env-variables\n"
@@ -20,6 +21,8 @@ menu(){
   printf "9. edit Workspace-Rules\n"
   printf "10. edit Default-Settings\n"
   printf "11. edit Default-Keybinds\n"
+  printf "12. edit RofiBeats Music Stations\n"
+  printf "13. edit Quick Edit Menu\n"
 }
 
 main() {
@@ -52,11 +55,17 @@ main() {
         9)
             $tty $editor "$UserConfigs/WorkspaceRules.conf"
             ;;            
-		10)
+		    10)
             $tty $editor "$configs/Settings.conf"
             ;;
         11)
             $tty $editor "$configs/Keybinds.conf"
+            ;;
+        12)
+            $tty $editor "$UserScripts/RofiBeats.sh"
+            ;;
+        13)
+            $tty $editor "$UserScripts/QuickEdit.sh"
             ;;
         *)
             ;;
