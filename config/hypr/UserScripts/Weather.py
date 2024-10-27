@@ -104,7 +104,7 @@ prediction = f"\n\n (hourly) {prediction}" if len(prediction) > 0 else predic
 # tooltip text
 tooltip_text = str.format(
     "\t\t{}\t\t\n{}\n{}\n{}\n\n{}\n{}\n{}{}",
-    f'<span size="xx-large">{temp}</span>',
+    f'<span size="xx-large">{temp}F</span>',
     f"<big> {icon}</big>",
     f"<b>{status}</b>",
     f"<small>{temp_feel_text}</small>",
@@ -116,7 +116,7 @@ tooltip_text = str.format(
 
 # print waybar module data
 out_data = {
-    "text": f"{icon}  {temp}",
+    "text": f"{icon}  {temp}F",
     "alt": status,
     "tooltip": tooltip_text,
     "class": status_code,
@@ -124,7 +124,7 @@ out_data = {
 print(json.dumps(out_data))
 
 simple_weather =f"{icon}  {status}\n" + \
-                f"  {temp} ({temp_feel_text})\n" + \
+                f"  {temp}F ({temp_feel_text})\n" + \
                 f"{wind_text} \n" + \
                 f"{humidity_text} \n" + \
                 f"{visbility_text} AQI{air_quality_index}\n"
