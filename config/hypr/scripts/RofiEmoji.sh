@@ -3960,7 +3960,7 @@ exit
 🔥	sky & weather		fire | flame | tool
 💧	sky & weather		cold | comic | drop | droplet | sweat
 🌊	sky & weather	wave	ocean | water | wave
-🎃	Activities	event		celebration | halloween | jack | jack-o-lantern | lantern | Halloween | jack-o’-lantern
+🎃	Activities	event		celebration | halloween | jack | jack-o-lantern | lantern | Halloween | jack-o’-lantern | pumpkin
 🎄	Activities	event	tree	celebration | Christmas | tree
 🎆	Activities	event		celebration | fireworks
 🎇	Activities	event		celebration | fireworks | sparkle | sparkler

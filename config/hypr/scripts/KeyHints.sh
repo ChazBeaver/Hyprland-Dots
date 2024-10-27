@@ -52,65 +52,63 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 "" "" "" \
 " enter" "Terminal" "(kitty)" \
 " SHIFT enter" "DropDown Terminal" "(kitty-pyprland)" \
-" A" "Desktop Overview and Workspace Manager" "(AGS Overview)" \
+" A" "Desktop Overview" "(AGS Overview)" \
 " D" "App Launcher" "(rofi-wayland)" \
 " T" "Open File Manager" "(Thunar)" \
-" G" "Google Search" "(rofi)" \
+" S" "Google Search" "(rofi)" \
 "" "" "" \
 "" "" "" \
 "***************" "WINDOW MANAGEMENT" "***************" \
 "" "" "" \
 " Q" "close active window" "(not kill)" \
-" SHIFT Q " "kills an active window" "(kill)" \
+" Shift Q " "kills an active window" "(kill)" \
 " F" "Fullscreen" "Toggles to/from full screen" \
 " ALT F" "Toggle float" "single window" \
-" SHIFT F" "Toggle all windows to float" "all windows" \
-" (LEFT mouse-click)" "move selected window" "active window only" \
-" (RIGHT mouse-click)" "resize selected window" "active window only" \
+" Shift F" "Toggle all windows to float" "all windows" \
 " O" "Toggle Transparency/Opaqueness" "active window only" \
 " B" "Toggle Blur" "normal or less blur" \
 " Z" "Desktop Zoom" "(pyprland)" \
 " U " "View Scratchpad" "" \
-" SHIFT U " "Move to Scratchpad" "" \
-" ALT {1..10} " "Move active window to workspace {1..10} and follow" "" \
-" SHIFT {1..10} " "Move active window to workspace {1..10} " "Move Silently" \
+" Shift U " "Move to Scratchpad" "" \
+" Shift {1..10} " "Move to window {1..10} and follow" "" \
 " ALT L" "Toggle Dwindle | Master Layout" "Hyprland Layout" \
-" P" "Centered window sizing - selected window" "(Dwindle Mode - Pseudo)" \
+" P" "Pseudo" "Centered window sizing (Dwindle Mode)" \
 "" "" "" \
 "" "" "" \
 "***************" "WALLPAPER MANAGEMENT" "***************" \
 "" "" "" \
 " W" "Choose wallpaper" "(Wallpaper Menu)" \
-" SHIFT W" "Choose wallpaper effects" "(imagemagick + swww)" \
-" ALT W" "Random wallpaper" "(via swww)" \
+" Shift W" "Choose wallpaper effects" "(imagemagick + swww)" \
+"CTRL ALT W" "Random wallpaper" "(via swww)" \
 "" "" "" \
 "" "" "" \
 "***************" "WAYBAR MANAGEMENT" "***************" \
 "" "" "" \
-" ALT CTRL B" "Kill Waybar" "waybar" \
+" SHIFT B" "Kill Waybar" "waybar" \
 " CTRL B" "Choose waybar styles" "(waybar styles)" \
 " ALT B" "Choose waybar layout" "(waybar layout)" \
-" R" "Reload Waybar swaync Rofi" "CHECK NOTIFICATION FIRST!!!" \
+" ALT R" "Reload Waybar swaync Rofi" "CHECK NOTIFICATION FIRST!!!" \
+" SHIFT N" "Launch Notification Panel" "swaync Notification Center" \
 "" "" "" \
 "" "" "" \
 "***************" "SCREENSHOT SHORTCUTS" "***************" \
 "" "" "" \
-" S" "screenshot" "(grim)" \
-" ALT S" "screenshot region" "(grim + slurp)" \
-"ALT S" "screenshot region" "(swappy)" \
-" CTRL S" "screenshot active window" "active window only" \
-" SHIFT S" "screenshot timer 5 secs " "(grim)" \
-" Print" "screenshot timer 10 secs " "(grim)" \
+" Print" "screenshot" "(grim)" \
+" Shift Print" "screenshot region" "(grim + slurp)" \
+" Shift S" "screenshot region" "(swappy)" \
+" CTRL Print" "screenshot timer 5 secs " "(grim)" \
+" CTRL SHIFT Print" "screenshot timer 10 secs " "(grim)" \
+"ALT Print" "Screenshot active window" "active window only" \
 "" "" "" \
 "" "" "" \
 "***************" "SYSTEM POWER CONTROLS" "***************" \
 "" "" "" \
+"CTRL ALT P" "power-menu" "(wlogout)" \
 " L" "screen lock" "(hyprlock)" \
 " SHIFT CTRL L" "screen lock" "(hyprlock)" \
 " SHIFT CTRL H" "Hybernate/Suspend" "(hyprlock)" \
 " SHIFT CTRL R" "Reboot" "(hyprlock)" \
 " SHIFT CTRL P" "Poweroff" "(hyprlock)" \
-"CTRL ALT P" "power-menu" "(wlogout)" \
 "CTRL ALT Del" "Hyprland Exit" "(SAVE YOUR WORK!!!)" \
 "" "" "" \
 "" "" "" \
@@ -123,8 +121,7 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 "" "" "" \
 "***************" "MISC SHORTCUTS" "***************" \
 "" "" "" \
-" M" "Launch Music Menu" "🎧🎶" \
-" N" "Launch Notification Panel" "swaync Notification Center" \
+" ALT M" "Launch Music Menu" "🎧🎶" \
 " SHIFT G" "Gamemode! All animations OFF or ON" "toggle" \
 "" "" "" \
 "" "" "" \
