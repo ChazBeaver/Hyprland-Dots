@@ -52,8 +52,8 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 "" "" "" \
 " Space" "Terminal" "(kitty)" \
 " SHIFT Space" "DropDown Terminal" "(kitty-pyprland)" \
-" A" "Desktop Overview" "(AGS Overview)" \
-" D" "App Launcher" "(rofi-wayland)" \
+" D" "Desktop Overview" "(AGS Overview)" \
+" A" "App Launcher" "(rofi-wayland)" \
 " T" "Open File Manager" "(Thunar)" \
 " S" "Google Search" "(rofi)" \
 "" "" "" \
