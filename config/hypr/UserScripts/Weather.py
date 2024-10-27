@@ -57,7 +57,7 @@ icon = (
 temp_feel = html_data(
     "div[data-testid='FeelsLikeSection'] > span > span[data-testid='TemperatureValue']"
 ).text()
-temp_feel_text = f"Feels like {temp_feel}c"
+temp_feel_text = f"Feels like {temp_feel}F"
 # print(temp_feel_text)
 
 # min-max temperature

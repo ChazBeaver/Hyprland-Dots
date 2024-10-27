@@ -50,8 +50,8 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 "" "" "" \
 "***************" "TERMINAL AND APPLICATIONS" "***************" \
 "" "" "" \
-" enter" "Terminal" "(kitty)" \
-" SHIFT enter" "DropDown Terminal" "(kitty-pyprland)" \
+" Space" "Terminal" "(kitty)" \
+" SHIFT Space" "DropDown Terminal" "(kitty-pyprland)" \
 " A" "Desktop Overview" "(AGS Overview)" \
 " D" "App Launcher" "(rofi-wayland)" \
 " T" "Open File Manager" "(Thunar)" \
@@ -60,8 +60,8 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 "" "" "" \
 "***************" "WINDOW MANAGEMENT" "***************" \
 "" "" "" \
-" Q" "close active window" "(not kill)" \
-" Shift Q " "kills an active window" "(kill)" \
+" Enter" "close active window" "(not kill)" \
+" Shift Enter " "kills an active window" "(kill)" \
 " F" "Fullscreen" "Toggles to/from full screen" \
 " ALT F" "Toggle float" "single window" \
 " Shift F" "Toggle all windows to float" "all windows" \
