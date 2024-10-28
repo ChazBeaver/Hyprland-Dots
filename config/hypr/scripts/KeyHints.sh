@@ -51,7 +51,7 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 "***************" "TERMINAL AND APPLICATIONS" "***************" \
 "" "" "" \
 " Space" "Terminal" "(kitty)" \
-" SHIFT Space" "DropDown Terminal" "(kitty-pyprland)" \
+" ALT Space" "DropDown Terminal" "(kitty-pyprland)" \
 " D" "Desktop Overview" "(AGS Overview)" \
 " A" "App Launcher" "(rofi-wayland)" \
 " T" "Open File Manager" "(Thunar)" \
@@ -68,10 +68,22 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 " O" "Toggle Transparency/Opaqueness" "active window only" \
 " B" "Toggle Blur" "normal or less blur" \
 " Z" "Desktop Zoom" "(pyprland)" \
-" U " "View Scratchpad" "" \
+" ↑↓←→" "Change focus ↑↓←→" "" \
+" CTRL ↑↓←→" "Move window ↑↓←→" "" \
+" {1..10} " "Move to desktop {1..10}" "" \
+" ." "Move to desktop +1" "i.e. 1 --> 2" \
+" ," "Move to desktop -1" "i.e. 3 --> 2" \
+" Tab" "Move to desktop +1" "i.e. 1 --> 2" \
+" Shift Tab" "Move to desktop -1" "i.e. 3 --> 2" \
+" ALT ." "Move window to desktop +1 and follow" "i.e. 1 --> 2" \
+" ALT ," "Move window to desktop -1 and follow" "i.e. 3 --> 2" \
+" ALT →" "Move window to desktop +1 and follow" "i.e. 1 --> 2" \
+" ALT ←" "Move window to desktop -1 and follow" "i.e. 3 --> 2" \
+" ALT {1..10} " "Move window to desktop {1..10} and follow" "" \
+" Shift {1..10} " "Move window to desktop {1..10}" "silently" \
 " Shift U " "Move to Scratchpad" "" \
-" Shift {1..10} " "Move to window {1..10} and follow" "" \
-" ALT L" "Toggle Dwindle | Master Layout" "Hyprland Layout" \
+" U " "View Scratchpad" "" \
+" CTRL L" "Toggle Dwindle | Master Layout" "Hyprland Layout" \
 " P" "Pseudo" "Centered window sizing (Dwindle Mode)" \
 "" "" "" \
 "" "" "" \
@@ -84,31 +96,30 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 "" "" "" \
 "***************" "WAYBAR MANAGEMENT" "***************" \
 "" "" "" \
-" SHIFT B" "Kill Waybar" "waybar" \
+" ALT CTRL B" "Kill Waybar" "waybar" \
 " CTRL B" "Choose waybar styles" "(waybar styles)" \
 " ALT B" "Choose waybar layout" "(waybar layout)" \
-" ALT R" "Reload Waybar swaync Rofi" "CHECK NOTIFICATION FIRST!!!" \
-" SHIFT N" "Launch Notification Panel" "swaync Notification Center" \
+" R" "Reload Waybar swaync Rofi" "CHECK NOTIFICATION FIRST!!!" \
+" N" "Launch Notification Panel" "swaync Notification Center" \
 "" "" "" \
 "" "" "" \
 "***************" "SCREENSHOT SHORTCUTS" "***************" \
 "" "" "" \
-" Print" "screenshot" "(grim)" \
-" Shift Print" "screenshot region" "(grim + slurp)" \
-" Shift S" "screenshot region" "(swappy)" \
-" CTRL Print" "screenshot timer 5 secs " "(grim)" \
-" CTRL SHIFT Print" "screenshot timer 10 secs " "(grim)" \
-"ALT Print" "Screenshot active window" "active window only" \
+" S" "screenshot" "(grim)" \
+" ALT S" "screenshot region" "(grim + slurp)" \
+"ALT S" "screenshot region" "(swappy)" \
+" CTRL S" "Screenshot active window" "active window only" \
+" Shift S" "screenshot timer 5 secs " "(grim)" \
+" Print" "screenshot timer 10 secs " "(grim)" \
 "" "" "" \
 "" "" "" \
 "***************" "SYSTEM POWER CONTROLS" "***************" \
 "" "" "" \
-"CTRL ALT P" "power-menu" "(wlogout)" \
-" L" "screen lock" "(hyprlock)" \
 " SHIFT CTRL L" "screen lock" "(hyprlock)" \
 " SHIFT CTRL H" "Hybernate/Suspend" "(hyprlock)" \
 " SHIFT CTRL R" "Reboot" "(hyprlock)" \
 " SHIFT CTRL P" "Poweroff" "(hyprlock)" \
+"CTRL ALT P" "power-menu" "(wlogout)" \
 "CTRL ALT Del" "Hyprland Exit" "(SAVE YOUR WORK!!!)" \
 "" "" "" \
 "" "" "" \

@@ -4,9 +4,9 @@
 clear
 
 wallpaper=$HOME/.config/hypr/wallpaper_effects/.wallpaper_modified
-waybar_style="$HOME/.config/waybar/style/[Colored] Chroma Glow.css"
-waybar_config="$HOME/.config/waybar/configs/[TOP] Default_v3"
-waybar_config_laptop="$HOME/.config/waybar/configs/[TOP] Default Laptop_v3" 
+waybar_style="$HOME/.config/waybar/style/[Dark] Wallust Obsidian Edge.css"
+waybar_config="$HOME/.config/waybar/configs/[TOP] Everforest"
+waybar_config_laptop="$HOME/.config/waybar/configs/[TOP] Everforest" 
 
 # Check if running as root. If root, script will exit
 if [[ $EUID -eq 0 ]]; then
