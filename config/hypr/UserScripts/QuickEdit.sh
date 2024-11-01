@@ -27,6 +27,7 @@ menu(){
   printf "13. edit Quick Files Menu\n"
   printf "14. edit Waybar Modules\n"
   printf "15. edit Help Legend/Key Hints\n"
+  printf "16. edit NixOS-Hyprland\n"
 }
 
 main() {
@@ -76,6 +77,9 @@ main() {
             ;;
         15)
             $tty $editor "$Scripts/KeyHints.sh"
+            ;;
+        16)
+            $tty $editor "/home/chaz/Documents/Chaz_Hyprland/NixOS-Hyprland"
             ;;
         *)
             ;;
