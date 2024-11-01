@@ -1,7 +1,14 @@
 # Ignore Personal Wallpapers
 wallpapers/Personal-Wallpapers/*
 
+<<<<<<< HEAD
 # Ignore the current wallpaper being used at the time
 config/hypr/wallpaper_effects/.wallpaper_current
 config/hypr/wallpaper_effects/.wallpaper_modified
 config/hypr/wallust/wallust-hyprland.conf
+=======
+# # Ignore the current wallpaper being used at the time
+# config/hypr/wallpaper_effects/.wallpaper_current
+# config/hypr/wallpaper_effects/.wallpaper_modified
+# config/hypr/wallust/wallust-hyprland.conf
+>>>>>>> f9c6519 (update .gitignore)
