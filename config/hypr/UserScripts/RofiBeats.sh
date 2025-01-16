@@ -28,6 +28,7 @@ declare -A online_music=(
   ["YT - Peaceful Piano Radio 🎹🎶"]="https://www.youtube.com/watch?v=TtkFsfOP9QI"
   ["YT - Tavern Music: DnD, Fantasy, Inn 🔮🎶"]="https://www.youtube.com/watch?v=vK5VwVyxkbI"
   ["YT - Fiesta Latina Mix 2024 💃🎶"]="https://www.youtube.com/watch?v=dE4xDQbS-9c"
+  ["YT - Ambient Space - Study, Sleep, Meditate🎶"]="https://www.youtube.com/watch?v=MUWu45U2bMU"
 )
 
 # Populate local_music array with files from music directory and subdirectories

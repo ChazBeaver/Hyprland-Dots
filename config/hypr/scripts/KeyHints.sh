@@ -63,7 +63,7 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 " Enter" "close active window" "(not kill)" \
 " Shift Enter " "kills an active window" "(kill)" \
 " F" "Fullscreen" "Toggles to/from full screen" \
-" ALT F" "Toggle float" "single window" \
+" CTRL F" "Toggle float" "single window" \
 " Shift F" "Toggle all windows to float" "all windows" \
 " O" "Toggle Transparency/Opaqueness" "active window only" \
 " B" "Toggle Blur" "normal or less blur" \
@@ -75,11 +75,11 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 " ," "Move to desktop -1" "i.e. 3 --> 2" \
 " Tab" "Move to desktop +1" "i.e. 1 --> 2" \
 " Shift Tab" "Move to desktop -1" "i.e. 3 --> 2" \
-" ALT ." "Move window to desktop +1 and follow" "i.e. 1 --> 2" \
-" ALT ," "Move window to desktop -1 and follow" "i.e. 3 --> 2" \
-" ALT →" "Move window to desktop +1 and follow" "i.e. 1 --> 2" \
-" ALT ←" "Move window to desktop -1 and follow" "i.e. 3 --> 2" \
-" ALT {1..10} " "Move window to desktop {1..10} and follow" "" \
+" CTRL ." "Move window to desktop +1 and follow" "i.e. 1 --> 2" \
+" CTRL ," "Move window to desktop -1 and follow" "i.e. 3 --> 2" \
+" CTRL →" "Move window to desktop +1 and follow" "i.e. 1 --> 2" \
+" CTRL ←" "Move window to desktop -1 and follow" "i.e. 3 --> 2" \
+" CTRL {1..10} " "Move window to desktop {1..10} and follow" "" \
 " Shift {1..10} " "Move window to desktop {1..10}" "silently" \
 " Shift U " "Move to Scratchpad" "" \
 " U " "View Scratchpad" "" \
