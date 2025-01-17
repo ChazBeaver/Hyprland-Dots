@@ -8,23 +8,40 @@ notif="$HOME/.config/swaync/images/bell.png"
 STATE=$(hyprctl -j getoption decoration:blur:passes | jq ".int")
 
 # Determine the next state in the cycle
-NEXT_STATE=$(( (STATE % 3) + 1 ))
+NEXT_STATE=$(( (STATE % 4) + 1 ))
 
 # Switch based on the next state
 case $NEXT_STATE in
     1)
         hyprctl keyword decoration:blur:size 1
         hyprctl keyword decoration:blur:passes 1
+        hyprctl keyword decoration:active_opacity 0.85
+        hyprctl keyword decoration:inactive_opacity 0.75
+        hyprctl keyword decoration:fullscreen_opacity 0.85
         notify-send -e -u low -i "$notif" "Transparent"
         ;;
     2)
-        hyprctl keyword decoration:blur:size 5
+        hyprctl keyword decoration:blur:size 4
         hyprctl keyword decoration:blur:passes 2
-        notify-send -e -u low -i "$notif" "Less blur"
+        hyprctl keyword decoration:active_opacity 0.9
+        hyprctl keyword decoration:inactive_opacity 0.8
+        hyprctl keyword decoration:fullscreen_opacity 0.9
+        notify-send -e -u low -i "$notif" "Slight Blur"
         ;;
     3)
-        hyprctl keyword decoration:blur:size 15
+        hyprctl keyword decoration:blur:size 10
         hyprctl keyword decoration:blur:passes 3
-        notify-send -e -u low -i "$notif" "Maximum blur"
+        hyprctl keyword decoration:active_opacity 0.95
+        hyprctl keyword decoration:inactive_opacity 0.85
+        hyprctl keyword decoration:fullscreen_opacity 0.95
+        notify-send -e -u low -i "$notif" "Heavy Blur"
+        ;;
+    4)
+        hyprctl keyword decoration:blur:size 50
+        hyprctl keyword decoration:blur:passes 4
+        hyprctl keyword decoration:active_opacity 3
+        hyprctl keyword decoration:inactive_opacity 0.9
+        hyprctl keyword decoration:fullscreen_opacity 3
+        notify-send -e -u low -i "$notif" "Opaque"
         ;;
 esac
