@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- 💫 https://github.com/chaz 💫 ---- */  ##
 
 # wlogout (Power, Screen Lock, Suspend, etc)
 

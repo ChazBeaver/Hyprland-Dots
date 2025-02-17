@@ -1,5 +1,5 @@
 #!/bin/bash
-### https://github.com/JaKooLit/JaKooLit
+### https://github.com/chaz/chaz
 
 # Set some colors for output messages
 OK="$(tput setaf 2)[OK]$(tput sgr0)"

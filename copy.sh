@@ -1,5 +1,5 @@
 #!/bin/bash
-### https://github.com/JaKooLit/JaKooLit
+### https://github.com/chaz/chaz
 
 clear
 
@@ -19,7 +19,7 @@ echo '  ╔═╗ ╦ ╦ ╔═╗ ╔═╗  ╦ ╦┬ ┬┌─┐┬─┐�
 echo '  ║   ╠═╣ ╠═╣ ╔═╝  ╠═╣└┬┘├─┘├┬┘│  ├─┤│││ │ │───║ ║│ │ │ └─┐ '
 echo '  ╚═╝ ╩ ╩ ╩ ╩ ╚═╝  ╩ ╩ ┴ ┴  ┴└─┴─┘┴ ┴┘└┘─┴─┘  ═╩═╝└─┘ ┴ └─┘ '
 echo '                                                            '
-echo '       A personal redesign of JaKooLit Hyperland-Dots       '
+echo '       A personal redesign of chaz Hyperland-Dots       '
 echo '                                                            '
 printf "\n%.0s" {1..2} 
  
@@ -393,7 +393,7 @@ while true; do
   case $WALL in
     [Yy])
       echo "${NOTE} Downloading additional wallpapers..."
-      if git clone "https://github.com/JaKooLit/Wallpaper-Bank.git"; then
+      if git clone "https://github.com/chaz/Wallpaper-Bank.git"; then
           echo "${NOTE} Wallpapers downloaded successfully." 2>&1 | tee -a "$LOG"
 
           # Check if wallpapers directory exists and create it if not

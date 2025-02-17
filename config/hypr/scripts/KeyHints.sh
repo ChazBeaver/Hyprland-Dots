@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- 💫 https://github.com/chaz 💫 ---- */  ##
 # Keyhints. Idea got from Garuda Hyprland
 
 # GDK BACKEND. Change to either wayland or x11 if having issues
@@ -136,4 +136,4 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 " SHIFT G" "Gamemode! All animations OFF or ON" "toggle" \
 "" "" "" \
 "" "" "" \
-"More tips:" "https://github.com/JaKooLit/Hyprland-Dots/wiki" ""\
+"More tips:" "https://github.com/chaz/Hyprland-Dots/wiki" ""\
