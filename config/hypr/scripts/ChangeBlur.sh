@@ -8,7 +8,7 @@ notif="$HOME/.config/swaync/images/bell.png"
 STATE=$(hyprctl -j getoption decoration:blur:passes | jq ".int")
 
 # Determine the next state in the cycle
-NEXT_STATE=$(( (STATE % 4) + 1 ))
+NEXT_STATE=$(( (STATE % 3) + 1 ))
 
 # Switch based on the next state
 case $NEXT_STATE in
@@ -30,7 +30,7 @@ case $NEXT_STATE in
         ;;
     3)
         hyprctl keyword decoration:blur:size 50
-        hyprctl keyword decoration:blur:passes 4
+        hyprctl keyword decoration:blur:passes 3
         hyprctl keyword decoration:active_opacity 3
         hyprctl keyword decoration:inactive_opacity 0.9
         hyprctl keyword decoration:fullscreen_opacity 3
