@@ -31,6 +31,7 @@
 	"custom/separator#blank_6", 
 	"custom/separator#blank_6", 
 	"custom/separator#blank_6", 
+// these are used to align the waybar sections more left/right
 //  "custom/separator#blank_2", 
 //  "custom/separator#blank_2", 
   "custom/weather",

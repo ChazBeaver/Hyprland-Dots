@@ -1,5 +1,5 @@
 #!/bin/bash
-### https://github.com/chaz/chaz
+### https://github.com/ChazBeaver/Hyprland-Dots
 
 clear
 
@@ -19,7 +19,7 @@ echo '  ╔═╗ ╦ ╦ ╔═╗ ╔═╗  ╦ ╦┬ ┬┌─┐┬─┐�
 echo '  ║   ╠═╣ ╠═╣ ╔═╝  ╠═╣└┬┘├─┘├┬┘│  ├─┤│││ │ │───║ ║│ │ │ └─┐ '
 echo '  ╚═╝ ╩ ╩ ╩ ╩ ╚═╝  ╩ ╩ ┴ ┴  ┴└─┴─┘┴ ┴┘└┘─┴─┘  ═╩═╝└─┘ ┴ └─┘ '
 echo '                                                            '
-echo '       A personal redesign of chaz Hyperland-Dots       '
+echo '       A personal redesign of JaKooLit Hyperland-Dots       '
 echo '                                                            '
 printf "\n%.0s" {1..2} 
  
@@ -79,7 +79,7 @@ if hostnamectl | grep -q 'Operating System: NixOS'; then
   sed -i '/^exec-once = \$scriptsDir\/Polkit\.sh$/ s/^#*/#/' config/hypr/UserConfigs/Startup_Apps.conf
 fi
 
-# Check if dpkg is installed (use to check if Debian or Ubuntu or based distros
+# Check if dpkg is installed (use to check if Debian or Ubuntu or based distros)
 if command -v dpkg &> /dev/null; then
 	echo "Debian/Ubuntu based distro. Disabling pyprland" 2>&1 | tee -a "$LOG" || true
   # disabling pyprland as causing issues
@@ -393,7 +393,7 @@ while true; do
   case $WALL in
     [Yy])
       echo "${NOTE} Downloading additional wallpapers..."
-      if git clone "https://github.com/chaz/Wallpaper-Bank.git"; then
+      if git clone "https://github.com/ChazBeaver/Wallpaper-Bank.git"; then
           echo "${NOTE} Wallpapers downloaded successfully." 2>&1 | tee -a "$LOG"
 
           # Check if wallpapers directory exists and create it if not
