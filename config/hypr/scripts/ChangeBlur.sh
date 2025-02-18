@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/chaz 💫 ---- */  ##
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # Script for changing blurs on the fly
 
 notif="$HOME/.config/swaync/images/bell.png"
@@ -26,17 +26,9 @@ case $NEXT_STATE in
         hyprctl keyword decoration:active_opacity 0.9
         hyprctl keyword decoration:inactive_opacity 0.8
         hyprctl keyword decoration:fullscreen_opacity 0.9
-        notify-send -e -u low -i "$notif" "Slight Blur"
+        notify-send -e -u low -i "$notif" "Blur"
         ;;
     3)
-        hyprctl keyword decoration:blur:size 10
-        hyprctl keyword decoration:blur:passes 3
-        hyprctl keyword decoration:active_opacity 0.95
-        hyprctl keyword decoration:inactive_opacity 0.85
-        hyprctl keyword decoration:fullscreen_opacity 0.95
-        notify-send -e -u low -i "$notif" "Heavy Blur"
-        ;;
-    4)
         hyprctl keyword decoration:blur:size 50
         hyprctl keyword decoration:blur:passes 4
         hyprctl keyword decoration:active_opacity 3
